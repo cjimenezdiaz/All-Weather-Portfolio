@@ -1,6 +1,8 @@
 # Libraries ----
 library(tidyquant)
 library(tidyverse)
+library(scales)
+library(kableExtra)
 
 # Local Variables ----
 symbols       <- c("VTI", "TLT", "IEF", "GLD", "DBC")
